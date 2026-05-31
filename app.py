@@ -15,7 +15,6 @@ CONF_THRESHOLD = 0.37
 
 st.set_page_config(
     page_title="Detector de Trincas",
-    page_icon="🧱",
     layout="wide"
 )
 
@@ -25,7 +24,7 @@ def load_model():
     return YOLO(str(MODEL_PATH))
 
 
-st.title("🧱 Sistema Inteligente de Detecção de Trincas e Fissuras")
+st.title(" >> Sistema Inteligente de Detecção de Trincas e Fissuras")
 
 st.markdown(
     """
