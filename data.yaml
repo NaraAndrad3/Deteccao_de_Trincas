@@ -1,0 +1,10 @@
+# informa onde estão as imagens e suas respectivas pastas
+
+path: dataset_yolo
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: crack
