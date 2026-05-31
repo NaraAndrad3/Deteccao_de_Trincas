@@ -1,0 +1,23 @@
+# Dataset
+dataset/
+dataset_yolo/
+
+# Treinamentos
+runs/
+
+# Modelos
+*.pt
+
+# Predições
+results/predictions/
+
+# Python
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/
+
+# Ambiente virtual
+venv/
+.env
