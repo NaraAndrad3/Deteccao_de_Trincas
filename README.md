@@ -6,6 +6,11 @@ O objetivo do projeto é automatizar a identificação e localização de falhas
 
 ---
 
+> ⚠️ O modelo treinado não está versionado neste repositório devido ao tamanho do arquivo.
+>
+> Download do modelo:
+> https://drive.google.com/file/d/1MSMmuEL0Czlf2qD3jtb7puPLYexEBd-7/view?usp=drive_link
+
 # Principais Características
 
 * Segmentação automática de trincas e fissuras
@@ -181,7 +186,9 @@ Os resultados serão salvos automaticamente na pasta de predições.
 
 # Aplicação Web
 
-Execute:
+Antes de executar a aplicação, certifique-se de que o arquivo best.pt foi baixado e posicionado corretamente.
+
+Após verificado, xecute:
 
 ```bash
 streamlit run app.py
